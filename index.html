@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolie website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer> </script>
+    <script src="https://kit.fontawesome.com/139af49494.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+   <!-- header design  -->
+   <div id="header">
+    <div class="container">
+        <nav>
+            <a href="">
+            <img src="./logo.png" class="logo"> 
+        </a>
+            <ul id="sidemenu">
+                <li> <a href="#header"> Home </a> </li>
+                <li> <a href="#about"> About </a> </li> 
+                <li> <a href="#services"> Services </a> </li>
+                <li> <a href="#portfolio"> Portfolio </a> </li> 
+                <li> <a href="#contact"> Contact </a> </li>
+            </ul>
+            
+             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p> 
+        <H1> Hi, It's Me <span class="name-color"> Tshering </span><br>
+             I'm a <span class="skill"> Web developer </span> 
+            </H1>
+        </p>
+        </div>
+<div class="image"> 
+    <img src="./tsherings.png"  alt="profile photo" >
+</div>
+</div>
+</div>
+</div>  
+                      <!-- About -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./me.png" alt="image" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me </h1>
+                <p>
+                    Hello! I'm Tshering, a passionate Front-End Developer with a strong foundation in  <u>HTML,</u><u> CSS,</u> and <u> JavaScript. </u><br>
+                     I specialize in creating responsive, visually appealing, and user-friendly websites. With a keen eye for detail
+                      and a focus on clean, efficient code, I strive to craft seamless web experiences that look great on any device.
+                    <br>
+                    <br>
+                    I have hands-on experience building interactive projects, including portfolio sites, clones of popular platforms, 
+                    and customized websites for clients, ensuring that each design aligns with user needs and brand identity. I’m 
+                    constantly learning and staying up to date with the latest web technologies to deliver modern, high-quality websites.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+                    <p class="tab-links" onclick="opentab('education')"> Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills" >
+                    <ul>
+        <li><span>UI/UX</span><br> Designing Web </li>
+        <li><span>Web Development </span><br>Advance website Development</li>
+        <li><span>Junior Seo</span><br> Web Seo </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+        <li><span>2024-PRESENT</span><br> Learned Desiging Web </li>
+        <li><span>2024-PRESENT </span><br>Learned Web Development</li>
+        <li><span>2023-2024</span><br>Learned Web Seo </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+        <li><span>2023-PRESENT</span><br> Bachelor Running In BCA </li>
+        <li><span>2023 </span><br>+2 Completed Major In Computer Science</li>
+        <li><span>2020</span><br>SEE Completed </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                                                  <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>  
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web design</h2>
+                    <p> I have developed responsive and user-friendly websites using HTML, CSS, and
+                         JavaScript, including projects like a portfolio site, a YouTube clone, and 
+                         a restaurant website for "Japanese Yama Sushi Restaurant." I have also built 
+                         an interactive calculator, demonstrating my skills in real-time functionality.
+                          Additionally, I have integrated C programming for back-end logic in web-based 
+                          projects, showcasing my ability to blend technologies effectively. My work 
+                          prioritizes clean design, responsiveness, and SEO optimization to enhance 
+                          user experience and visibility.</p>
+            <a href="#"> Learn More </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Junior UI/UX</h2>
+                    <p> I have experience as a Junior UI/UX Designer, focusing on creating responsive 
+                        and user-friendly interfaces for websites and applications. My projects include
+                         designing a portfolio site, a YouTube clone, and a restaurant website for 
+                         "Japanese Yama Sushi Restaurant," ensuring seamless user interactions and appealing
+                          layouts. I have also worked on an interactive calculator, emphasizing intuitive
+                           design and usability. Additionally, I have collaborated on projects requiring 
+                           the integration of functional logic with visually appealing front-end designs. 
+                           My work prioritizes clean aesthetics, responsiveness, and an enhanced user experience
+                            tailored to client needs.</p>
+            <a href="#"> Learn More </a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2> JUNIOR SEO </h2>
+                    <p> I have experience as a Junior UI/UX Designer and SEO specialist, where I’ve designed 
+                        responsive websites, including a portfolio site, a YouTube clone, and a restaurant site. 
+                        I focus on creating intuitive designs and ensuring seamless user interactions. I also 
+                        developed an interactive calculator project, prioritizing usability. My SEO skills include
+                         keyword research and meta tag optimization to improve site performance. I always 
+                         prioritize clean, responsive design to enhance user experience, and I ensure websites
+                          are optimized for both users and search engines, balancing aesthetics with functionality.</p>
+            <a href="#"> Learn More </a>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+                        <!-- -------------------------- portfolio--------- -->
+<div id="portfolio"> </div>
+    <div class="container">
+        <h1 class="sub-title">My Work </h1>
+        <div class="work-list"> 
+            <div class="work">
+                <img src="work-1.png" alt="work image">
+            <div class="layer">
+                <h3> Junior UI/UX </h3>
+                <p> UI/UX Designer focused on creating intuitive, visually appealing user interfaces. I specialize in designing 
+                    responsive, user-centered layouts that offer seamless, functional experiences across devices. My goal is to 
+                    craft designs that are both aesthetically pleasing and easy to navigate, meeting the needs of users while 
+                    bringing client visions to life.</p>
+            <a href="#"> <i class="fa-solid fa-link"></i> </a>
+            </div>
+            </div>
+
+            <div class="work">
+                <img src="./work-2.png" alt="work image">
+                <div class="layer">
+                    <h3> Web Developer </h3>
+                    <p> Web Developer passionate about building responsive, user-friendly websites. I specialize in front-end 
+                        development using HTML, CSS, and JavaScript to create seamless, interactive web experiences. My focus 
+                        is on writing clean, efficient code and delivering websites that are both visually appealing and functional
+                         across all devices. My goal is to bring client ideas to life with modern web technologies while ensuring
+                          optimal user experience.</p>
+                <a href="#"> <i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./work-3.png" alt="work image">
+                <div class="layer">
+                    <h3> SEO </h3>
+                    <p> SEO enthusiast dedicated to optimizing websites for better visibility and performance in search engines.
+                         I specialize in keyword research, on-page optimization, and improving site structure to enhance rankings.
+                          My goal is to drive organic traffic by ensuring websites are not only user-friendly but also aligned with
+                           search engine algorithms, resulting in higher search visibility and better user engagement.
+                        </p>
+                <a href="#"> <i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> SEE MORE </a>
+</div>
+
+                                <!-----------------contact-------------  -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><i class="fa-solid fa-paper-plane"></i> Contact Me </h1>
+                <p> <i class="fa-solid fa-envelope"></i>Ltshering.sherpa2003@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>9818958193</p>
+                <div class="social-icons">
+            <a href="https://github.com/tshering-sherpa2003" target="_blank"><i class="fa-brands fa-github"></i> </a>        
+            <a href="https://www.facebook.com/ltshering.sherpa2003" target="_blank"><i class="fa-brands fa-facebook"></i> </a>
+            <a href=""><i class="fa-brands fa-tiktok"></i> </a>
+            <a href="https://www.linkedin.com/in/tshering-sherpa-8b0a65284/" target="_blank"><i class="fa-brands fa-linkedin"></i> </a>
+                </div>
+            <a href="./tsheringcv.pdf" download class="btn btn2"> Download CV </a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet"> 
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+<button type="Submit" class="btn btn2">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+                                    <!-- copyright segment -->
+            <span id="msg"> </span>
+    <div class="copyright">
+        <p>Copyright &#169; Made By Tshering Sherpa</p>
+    </div>
+</div>
+
+                                    <!-- typing skills js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
+
+
+
